@@ -1,7 +1,7 @@
 # 🛒 Multi Vendor Ecommerce Project (Laravel 10)
 
 A complete **Multi Vendor Ecommerce Platform** built with **Laravel 10**.  
-This project covers everything from **Laravel fundamentals (A–Z)** to advanced ecommerce features, making it a solid base for learning, professional use, or commercial deployment.  
+This project to advanced ecommerce features, making it a solid base for professional use, or commercial deployment.  
 
 ---
 
@@ -54,7 +54,7 @@ This project covers everything from **Laravel fundamentals (A–Z)** to advanced
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/multi-vendor-ecommerce.git
+- git clone https://github.com/your-username/multi-vendor-ecommerce.git
 cd multi-vendor-ecommerce
 2️⃣ Install Dependencies
 composer install
@@ -76,16 +76,16 @@ php artisan serve
 
 Visit: http://127.0.0.1:8000
 
-👥 User Roles
+# 👥 User Roles
 
-Admin → Manage vendors, products, orders, payments, advertisements, newsletters, etc.
+- Admin → Manage vendors, products, orders, payments, advertisements, newsletters, etc.
 
-Vendor → Manage store products, discounts, coupons, shipping, and transactions.
+- Vendor → Manage store products, discounts, coupons, shipping, and transactions.
 
-User → Browse, search, add to cart, wishlist, review products, and place orders.
+- User → Browse, search, add to cart, wishlist, review products, and place orders.
 
 
-📈 Future Improvements
+# 📈 Future Improvements
 
 AI-powered product recommendations
 
@@ -95,15 +95,15 @@ Live chat between buyers & vendors
 
 Mobile app integration (Flutter / React Native)
 
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome!
 Please fork the repo and create a pull request.
 
-📜 License
+# 📜 License
 
 This project is licensed under the MIT License – free to use and modify.
 
-👨‍💻 Author
+# 👨‍💻 Author
 
 Developed with ❤️ using Laravel 10.
