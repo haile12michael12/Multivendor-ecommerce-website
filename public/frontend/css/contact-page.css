@@ -1,0 +1,172 @@
+/* Contact Page Custom Styles */
+
+/* FAQ Section Styles */
+#wsus__faq {
+    background-color: #f9f9f9;
+}
+
+#wsus__faq .wsus__section_heading h2 {
+    color: var(--secondary-color);
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+#wsus__faq .wsus__section_heading p {
+    color: var(--light-text);
+    margin-bottom: 20px;
+}
+
+#wsus__faq .accordion-item {
+    margin-bottom: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+}
+
+#wsus__faq .accordion-button {
+    background-color: var(--white);
+    color: var(--secondary-color);
+    font-weight: 500;
+    padding: 15px 20px;
+}
+
+#wsus__faq .accordion-button:not(.collapsed) {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+#wsus__faq .accordion-body {
+    padding: 15px 20px;
+    color: var(--light-text);
+    background-color: var(--white);
+}
+
+/* Business Hours Styles */
+#wsus__business_hours {
+    padding: 50px 0;
+}
+
+.wsus__business_hours_content {
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-sm);
+    height: 100%;
+}
+
+.wsus__business_hours_content h3 {
+    color: var(--secondary-color);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.wsus__business_hours_content h3:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: var(--primary-color);
+}
+
+.wsus__business_hours_content p {
+    color: var(--light-text);
+    margin-bottom: 20px;
+}
+
+.wsus__business_hour_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wsus__business_hour_list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px dashed var(--border-color);
+}
+
+.wsus__business_hour_list li:last-child {
+    border-bottom: none;
+}
+
+.wsus__business_hour_list li span:first-child {
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+/* Social Links */
+.wsus__social_link ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.wsus__social_link ul li {
+    margin-right: 10px;
+}
+
+.wsus__social_link ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--light-bg);
+    color: var(--secondary-color);
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.wsus__social_link ul li a:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* Newsletter */
+.wsus__newsletter {
+    margin-top: 30px;
+}
+
+.wsus__newsletter h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--secondary-color);
+}
+
+.wsus__newsletter form {
+    display: flex;
+}
+
+.wsus__newsletter input {
+    flex: 1;
+    height: 45px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm) 0 0 var(--border-radius-sm);
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.wsus__newsletter button {
+    height: 45px;
+    padding: 0 20px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    border-radius: 0 var(--border-radius-sm) var(--border-radius-sm) 0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.wsus__newsletter button:hover {
+    background-color: var(--secondary-color);
+}

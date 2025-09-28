@@ -1,0 +1,161 @@
+/* Custom CSS for advanced e-commerce features */
+
+/* Toast Notification */
+.toast-notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    z-index: 9999;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s, transform 0.3s;
+    max-width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.toast-notification.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Compare Products Styles */
+.compare-product-header {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+
+.compare-product-header .remove-compare {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 6px;
+    font-size: 14px;
+}
+
+.compare-table th, .compare-table td {
+    text-align: center;
+    vertical-align: middle;
+    min-width: 150px;
+}
+
+.compare-table th:first-child, .compare-table td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Modal Styles */
+.compare-product-card,
+.recently-viewed-card {
+    transition: all 0.3s ease;
+    border: 1px solid #dee2e6;
+}
+
+.compare-product-card:hover,
+.recently-viewed-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.compare-product-card .card-title,
+.recently-viewed-card .card-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    height: 40px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.compare-product-card .card-text,
+.recently-viewed-card .card-text {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+#compareModal .modal-content,
+#recentlyViewedModal .modal-content {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#compareModal .modal-header,
+#recentlyViewedModal .modal-header {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#compareModal .modal-footer,
+#recentlyViewedModal .modal-footer {
+    border-top: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+}
+
+/* Header Icons */
+.wsus__header_cart_icon {
+    position: relative;
+}
+
+.wsus__header_cart_icon .count-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #ff4a52;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Language Dropdown Improvements */
+.language-dropdown .dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+}
+
+.language-dropdown .dropdown-item .flag-icon {
+    margin-right: 8px;
+    width: 20px;
+}
+
+.language-dropdown .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Mobile Menu Improvements */
+.wsus__mobile_menu_icon span {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Deals Dropdown */
+.deals-dropdown .dropdown-menu {
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.deals-dropdown .dropdown-item {
+    padding: 8px 15px;
+    transition: all 0.3s;
+}
+
+.deals-dropdown .dropdown-item:hover {
+    background-color: #f8f9fa;
+    padding-left: 20px;
+}
