@@ -49,12 +49,11 @@ This project covers everything from **Laravel fundamentals (A–Z)** to advanced
 - **Authentication**: Laravel Breeze / Fortify / Passport (multi-auth setup)
 - **Payments**: Stripe, PayPal, Flutterwave, etc. (extendable)
 
----
 
 ## 📂 Project Setup
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/your-username/multi-vendor-ecommerce.git
 cd multi-vendor-ecommerce
 2️⃣ Install Dependencies
@@ -85,9 +84,6 @@ Vendor → Manage store products, discounts, coupons, shipping, and transactions
 
 User → Browse, search, add to cart, wishlist, review products, and place orders.
 
-📸 Screenshots
-
-(Add screenshots of dashboard, product pages, and vendor panel here)
 
 📈 Future Improvements
 
